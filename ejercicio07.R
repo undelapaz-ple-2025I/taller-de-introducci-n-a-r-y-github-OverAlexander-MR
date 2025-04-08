@@ -6,6 +6,10 @@ solucion <- function() {
   b <- 8
   c <- 5
   d <- 3
-  s <- NULL # ingresa expresión aquí
+  suma = a + b + c + d
+  n = 4
+  s <- suma/n # ingresa expresión aquí
   return(s)
 }
+
+solucion()
